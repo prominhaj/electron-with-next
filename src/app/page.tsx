@@ -3,9 +3,9 @@ import TaskManager from "@/components/TaskManager";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
+    <main className="flex items-center justify-center min-h-screen">
       <div>
-        <TaskManager />
+        {/* <TaskManager /> */}
         <FetchPageContent />
       </div>
     </main>
